@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-25T21:10:31 IST" name="Surefire suite" finished-at="2026-02-25T21:11:09 IST" duration-ms="38108">
+    <groups>
+    </groups>
+    <test started-at="2026-02-25T21:10:31 IST" name="Surefire test" finished-at="2026-02-25T21:11:09 IST" duration-ms="38108">
+      <class name="tests.ui.UpcomingMoviesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.ui.UpcomingMoviesTest@94f6bfb]" started-at="2026-02-25T21:10:55 IST" name="setup" finished-at="2026-02-25T21:11:00 IST" duration-ms="5775" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests.ui.UpcomingMoviesTest@94f6bfb]" started-at="2026-02-25T21:11:00 IST" name="initPages" finished-at="2026-02-25T21:11:03 IST" depends-on-methods="base.BaseUITest.setup" duration-ms="2989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="fetchUpcomingMovies()[pri:0, instance:tests.ui.UpcomingMoviesTest@94f6bfb]" started-at="2026-02-25T21:11:03 IST" name="fetchUpcomingMovies" description="Verify the upcoming movies list is populated" finished-at="2026-02-25T21:11:07 IST" duration-ms="3244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchUpcomingMovies -->
+        <test-method signature="goToMovieDetails()[pri:1, instance:tests.ui.UpcomingMoviesTest@94f6bfb]" started-at="2026-02-25T21:11:07 IST" name="goToMovieDetails" description="Verify clicking a movie navigates to the correct detail page" finished-at="2026-02-25T21:11:09 IST" depends-on-methods="tests.ui.UpcomingMoviesTest.fetchUpcomingMovies" duration-ms="2014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToMovieDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.UpcomingMoviesTest@94f6bfb]" started-at="2026-02-25T21:11:09 IST" name="tearDown" finished-at="2026-02-25T21:11:09 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ui.UpcomingMoviesTest -->
+      <class name="tests.ui.MovieDetailsTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.ui.MovieDetailsTest@35fe2125]" started-at="2026-02-25T21:10:39 IST" name="setup" finished-at="2026-02-25T21:10:49 IST" duration-ms="10041" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests.ui.MovieDetailsTest@35fe2125]" started-at="2026-02-25T21:10:49 IST" name="initPages" finished-at="2026-02-25T21:10:53 IST" depends-on-methods="base.BaseUITest.setup" duration-ms="4268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="verifyGenres()[pri:0, instance:tests.ui.MovieDetailsTest@35fe2125]" started-at="2026-02-25T21:10:53 IST" name="verifyGenres" description="Verify at least one genre is listed" finished-at="2026-02-25T21:10:54 IST" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGenres -->
+        <test-method signature="verifyMovieTitle()[pri:0, instance:tests.ui.MovieDetailsTest@35fe2125]" started-at="2026-02-25T21:10:54 IST" name="verifyMovieTitle" description="Verify movie title on detail page matches the listing" finished-at="2026-02-25T21:10:54 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMovieTitle -->
+        <test-method signature="verifyOriginalLanguage()[pri:0, instance:tests.ui.MovieDetailsTest@35fe2125]" started-at="2026-02-25T21:10:54 IST" name="verifyOriginalLanguage" description="Verify original language is not blank" finished-at="2026-02-25T21:10:54 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOriginalLanguage -->
+        <test-method signature="verifyOverview()[pri:0, instance:tests.ui.MovieDetailsTest@35fe2125]" started-at="2026-02-25T21:10:54 IST" name="verifyOverview" description="Verify overview text is present" finished-at="2026-02-25T21:10:54 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverview -->
+        <test-method signature="verifyReleaseDate()[pri:0, instance:tests.ui.MovieDetailsTest@35fe2125]" started-at="2026-02-25T21:10:54 IST" name="verifyReleaseDate" description="Verify release date is present" finished-at="2026-02-25T21:10:54 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReleaseDate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.MovieDetailsTest@35fe2125]" started-at="2026-02-25T21:10:54 IST" name="tearDown" finished-at="2026-02-25T21:10:55 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ui.MovieDetailsTest -->
+      <class name="tests.api.UserAPITest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.api.UserAPITest@2c35e847]" started-at="2026-02-25T21:10:31 IST" name="setup" finished-at="2026-02-25T21:10:32 IST" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUserTest()[pri:1, instance:tests.api.UserAPITest@2c35e847]" started-at="2026-02-25T21:10:32 IST" name="createUserTest" finished-at="2026-02-25T21:10:35 IST" duration-ms="3480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method signature="getUserTest()[pri:2, instance:tests.api.UserAPITest@2c35e847]" started-at="2026-02-25T21:10:35 IST" name="getUserTest" finished-at="2026-02-25T21:10:37 IST" depends-on-methods="tests.api.UserAPITest.createUserTest" duration-ms="1568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserTest -->
+        <test-method signature="updateUserTest()[pri:3, instance:tests.api.UserAPITest@2c35e847]" started-at="2026-02-25T21:10:37 IST" name="updateUserTest" finished-at="2026-02-25T21:10:38 IST" depends-on-methods="tests.api.UserAPITest.createUserTest" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+        <test-method signature="deleteUserTest()[pri:4, instance:tests.api.UserAPITest@2c35e847]" started-at="2026-02-25T21:10:38 IST" name="deleteUserTest" finished-at="2026-02-25T21:10:39 IST" depends-on-methods="tests.api.UserAPITest.updateUserTest" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+      </class> <!-- tests.api.UserAPITest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,285 @@
+2026-02-20 19:40:06 INFO  config.ConfigReader - Loaded config.properties from classpath (5 keys)
+2026-02-20 19:40:06 INFO  base.BaseUITest - Tearing down – trace output: disabled
+2026-02-20 19:40:06 INFO  ui.core.PlaywrightFactory - Tearing down Playwright resources (trace=null)
+2026-02-20 19:40:06 INFO  ui.core.PlaywrightFactory - Playwright teardown complete
+2026-02-20 19:41:01 INFO  config.ConfigReader - Loaded config.properties from classpath (6 keys)
+2026-02-20 19:41:01 INFO  base.BaseUITest - Setting up UI test – browser=chromium, headless=false
+2026-02-20 19:41:01 INFO  ui.core.PlaywrightFactory - Initialising 'chromium' browser (headless=false)
+2026-02-20 19:41:05 WARN  ui.core.PlaywrightFactory - Unknown browser 'chromium' – defaulting to chromium
+2026-02-20 19:41:09 INFO  ui.core.PlaywrightFactory - Browser ready – page created
+2026-02-20 19:41:15 INFO  base.BaseUITest - Navigated to base URL: https://www.themoviedb.org
+2026-02-20 19:41:15 INFO  tests.ui.UpcomingMoviesTest - Initialising page objects for UpcomingMoviesTest
+2026-02-20 19:41:15 INFO  ui.pages.UpcomingMoviesPage - Navigating to Upcoming Movies page
+2026-02-20 19:41:18 INFO  ui.pages.UpcomingMoviesPage - Upcoming movies page loaded – 19 titles visible
+2026-02-20 19:41:18 INFO  tests.ui.UpcomingMoviesTest - Running fetchUpcomingMovies
+2026-02-20 19:41:18 INFO  ui.pages.UpcomingMoviesPage - Fetching 19 upcoming movies
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - 858024 - Hamnet -> Feb 27, 2026
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - 1220564 - The Secret Agent -> Feb 27, 2026
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - 1445363 - EPiC: Elvis Presley in Concert -> Feb 27, 2026
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - 1602783 - Thaai Kizhavi -> Feb 27, 2026
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - 1441149 - Vishnu Vinyasam -> Feb 27, 2026
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - 1029483 - Aasai -> Mar 06, 2026
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - 1568600 - Kadhal Reset Repeat -> Mar 06, 2026
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - 1444032 - Masthishka Maranam -> Feb 27, 2026
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - 1625582 - The Kerala Story 2 Goes Beyond -> Feb 27, 2026
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - 1390575 - A Street Play -> Feb 27, 2026
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - 1637247 - Promoter Boudi -> Feb 27, 2026
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - 1177873 - Tha Thavalayude Tha -> Feb 27, 2026
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - 1428294 - Mrithyunjay -> Mar 06, 2026
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - 1593339 - Yaarra Antha Paiyan Naanthan Antha Paiyan -> Mar 06, 2026
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - 1606490 - ANDAKAGASAM -> Mar 06, 2026
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - 1296122 - Hayagrriva -> Feb 27, 2026
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - 1608274 - Motherhood -> Mar 06, 2026
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - 1607661 - Aazhi -> Feb 27, 2026
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - 1376592 - Nazarbandi -> Mar 06, 2026
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - Total upcoming movies found: 19
+2026-02-20 19:41:24 INFO  tests.ui.UpcomingMoviesTest - Running goToMovieDetails
+2026-02-20 19:41:24 INFO  ui.pages.UpcomingMoviesPage - Clicking movie [2]: 'EPiC: Elvis Presley in Concert'
+2026-02-20 19:41:25 INFO  ui.pages.UpcomingMoviesPage - Navigated to details page for 'EPiC: Elvis Presley in Concert'
+2026-02-20 19:41:25 INFO  ui.pages.MovieDetailsPage - MovieDetailsPage created
+2026-02-20 19:41:26 INFO  ui.pages.MovieDetailsPage - Movie title on details page: 'EPiC: Elvis Presley in Concert'
+2026-02-20 19:41:26 INFO  tests.ui.UpcomingMoviesTest - Expected title='EPiC: Elvis Presley in Concert', Actual title='EPiC: Elvis Presley in Concert'
+2026-02-20 19:41:26 INFO  ui.pages.MovieDetailsPage - === Movie Details ===
+2026-02-20 19:41:26 INFO  ui.pages.MovieDetailsPage - Title    : EPiC: Elvis Presley in Concert
+2026-02-20 19:41:26 INFO  ui.pages.MovieDetailsPage - Language : English
+2026-02-20 19:41:26 INFO  ui.pages.MovieDetailsPage - Released : 02/20/2026 (IN)
+2026-02-20 19:41:27 INFO  ui.pages.MovieDetailsPage - Genres   : [Music, Documentary]
+2026-02-20 19:41:27 INFO  ui.pages.MovieDetailsPage - Overview : Long-lost footage from Elvis Presely's legendary Las Vegas residency in the 1970s woven together with rare 16mm footage from Elvis on Tour, and 8mm from the Graceland archive, plus recordings of Elvis telling "his side of the story" rediscovered during Baz Luhrmann's research for his 2022 film, Elvis.
+2026-02-20 19:41:27 INFO  base.BaseUITest - Tearing down – trace output: disabled
+2026-02-20 19:41:27 INFO  ui.core.PlaywrightFactory - Tearing down Playwright resources (trace=null)
+2026-02-20 19:41:27 INFO  ui.core.PlaywrightFactory - Playwright teardown complete
+2026-02-20 19:41:41 INFO  config.ConfigReader - Loaded config.properties from classpath (6 keys)
+2026-02-25 20:14:10 INFO  config.ConfigReader - Loaded config.properties from classpath (6 keys)
+2026-02-25 20:14:10 INFO  base.BaseUITest - Setting up UI test – browser=chromium, headless=false
+2026-02-25 20:14:10 INFO  ui.core.PlaywrightFactory - Initialising 'chromium' browser (headless=false)
+2026-02-25 20:14:16 WARN  ui.core.PlaywrightFactory - Unknown browser 'chromium' – defaulting to chromium
+2026-02-25 20:14:20 INFO  ui.core.PlaywrightFactory - Browser ready – page created
+2026-02-25 20:14:29 INFO  base.BaseUITest - Navigated to base URL: https://www.themoviedb.org
+2026-02-25 20:14:29 INFO  tests.ui.UpcomingMoviesTest - Initialising page objects for UpcomingMoviesTest
+2026-02-25 20:14:29 INFO  ui.pages.UpcomingMoviesPage - Navigating to Upcoming Movies page
+2026-02-25 20:14:32 INFO  ui.pages.UpcomingMoviesPage - Upcoming movies page loaded – 17 titles visible
+2026-02-25 20:14:32 INFO  tests.ui.UpcomingMoviesTest - Running fetchUpcomingMovies
+2026-02-25 20:14:32 INFO  ui.pages.UpcomingMoviesPage - Fetching 17 upcoming movies
+2026-02-25 20:14:38 INFO  tests.ui.UpcomingMoviesTest - 1213243 - Toxic -> Mar 19, 2026
+2026-02-25 20:14:38 INFO  tests.ui.UpcomingMoviesTest - 1582770 - Dhurandhar: The Revenge -> Mar 19, 2026
+2026-02-25 20:14:38 INFO  tests.ui.UpcomingMoviesTest - 1209511 - Love Insurance Kompany -> Mar 20, 2026
+2026-02-25 20:14:38 INFO  tests.ui.UpcomingMoviesTest - 1576223 - RAGE -> Mar 20, 2026
+2026-02-25 20:14:38 INFO  tests.ui.UpcomingMoviesTest - 1628123 - BTS THE COMEBACK LIVE | ARIRANG -> Mar 21, 2026
+2026-02-25 20:14:38 INFO  tests.ui.UpcomingMoviesTest - 1029483 - Aasai -> Mar 06, 2026
+2026-02-25 20:14:38 INFO  tests.ui.UpcomingMoviesTest - 1260210 - Aadu 3 -> Mar 19, 2026
+2026-02-25 20:14:38 INFO  tests.ui.UpcomingMoviesTest - 1428294 - Mrithyunjay -> Mar 06, 2026
+2026-02-25 20:14:38 INFO  tests.ui.UpcomingMoviesTest - 1568600 - Kadhal Reset Repeat -> Mar 06, 2026
+2026-02-25 20:14:38 INFO  tests.ui.UpcomingMoviesTest - 1493079 - Korpur -> Mar 19, 2026
+2026-02-25 20:14:38 INFO  tests.ui.UpcomingMoviesTest - 1542352 - Youth -> Mar 19, 2026
+2026-02-25 20:14:38 INFO  tests.ui.UpcomingMoviesTest - 1606490 - ANDAKAGASAM -> Mar 06, 2026
+2026-02-25 20:14:38 INFO  tests.ui.UpcomingMoviesTest - 1593339 - Yaarra Antha Paiyan Naanthan Antha Paiyan -> Mar 06, 2026
+2026-02-25 20:14:38 INFO  tests.ui.UpcomingMoviesTest - 1608274 - Motherhood -> Mar 06, 2026
+2026-02-25 20:14:38 INFO  tests.ui.UpcomingMoviesTest - 1631856 - Oh Butterfly! -> Mar 06, 2026
+2026-02-25 20:14:38 INFO  tests.ui.UpcomingMoviesTest - 1524468 - Vadam -> Mar 06, 2026
+2026-02-25 20:14:38 INFO  tests.ui.UpcomingMoviesTest - 1376592 - Nazarbandi -> Mar 06, 2026
+2026-02-25 20:14:38 INFO  tests.ui.UpcomingMoviesTest - Total upcoming movies found: 17
+2026-02-25 20:14:38 INFO  tests.ui.UpcomingMoviesTest - Running goToMovieDetails
+2026-02-25 20:14:38 INFO  ui.pages.UpcomingMoviesPage - Clicking movie [2]: 'Love Insurance Kompany'
+2026-02-25 20:14:39 INFO  ui.pages.UpcomingMoviesPage - Navigated to details page for 'Love Insurance Kompany'
+2026-02-25 20:14:39 INFO  ui.pages.MovieDetailsPage - MovieDetailsPage created
+2026-02-25 20:14:40 INFO  ui.pages.MovieDetailsPage - Movie title on details page: 'Love Insurance Kompany'
+2026-02-25 20:14:40 INFO  tests.ui.UpcomingMoviesTest - Expected title='Love Insurance Kompany', Actual title='Love Insurance Kompany'
+2026-02-25 20:14:40 INFO  ui.pages.MovieDetailsPage - === Movie Details ===
+2026-02-25 20:14:40 INFO  ui.pages.MovieDetailsPage - Title    : Love Insurance Kompany
+2026-02-25 20:14:40 INFO  ui.pages.MovieDetailsPage - Language : Tamil
+2026-02-25 20:14:40 INFO  ui.pages.MovieDetailsPage - Released : 03/20/2026 (IN)
+2026-02-25 20:14:40 INFO  ui.pages.MovieDetailsPage - Genres   : [Romance, Comedy, Science Fiction]
+2026-02-25 20:14:40 INFO  ui.pages.MovieDetailsPage - Overview : In a tech-chained world, a hero seeks love’s unshackled truth. Through their fight, humanity’s heart may beat free once more.
+2026-02-25 20:14:40 INFO  base.BaseUITest - Tearing down – trace output: disabled
+2026-02-25 20:14:40 INFO  ui.core.PlaywrightFactory - Tearing down Playwright resources (trace=null)
+2026-02-25 20:14:41 INFO  ui.core.PlaywrightFactory - Playwright teardown complete
+2026-02-25 20:15:22 INFO  config.ConfigReader - Loaded config.properties from classpath (6 keys)
+2026-02-25 20:15:22 INFO  base.BaseUITest - Setting up UI test – browser=chromium, headless=false
+2026-02-25 20:15:22 INFO  ui.core.PlaywrightFactory - Initialising 'chromium' browser (headless=false)
+2026-02-25 20:15:31 WARN  ui.core.PlaywrightFactory - Unknown browser 'chromium' – defaulting to chromium
+2026-02-25 20:15:34 INFO  ui.core.PlaywrightFactory - Browser ready – page created
+2026-02-25 20:15:41 INFO  base.BaseUITest - Navigated to base URL: https://www.themoviedb.org
+2026-02-25 20:15:41 INFO  tests.ui.MovieDetailsTest - Navigating to a movie detail page for MovieDetailsTest
+2026-02-25 20:15:41 INFO  ui.pages.UpcomingMoviesPage - Navigating to Upcoming Movies page
+2026-02-25 20:15:44 INFO  ui.pages.UpcomingMoviesPage - Upcoming movies page loaded – 17 titles visible
+2026-02-25 20:15:44 INFO  ui.pages.UpcomingMoviesPage - Clicking movie [0]: 'Toxic'
+2026-02-25 20:15:45 INFO  ui.pages.UpcomingMoviesPage - Navigated to details page for 'Toxic'
+2026-02-25 20:15:45 INFO  ui.pages.MovieDetailsPage - MovieDetailsPage created
+2026-02-25 20:15:45 INFO  tests.ui.MovieDetailsTest - Landed on detail page for: 'Toxic'
+2026-02-25 20:15:46 INFO  ui.pages.MovieDetailsPage - Movie title on details page: 'Toxic'
+2026-02-25 20:15:46 INFO  tests.ui.MovieDetailsTest - Title check – expected='Toxic', actual='Toxic'
+2026-02-25 20:15:46 INFO  tests.ui.MovieDetailsTest - Original language: 'Kannada'
+2026-02-25 20:15:47 INFO  base.BaseUITest - Tearing down – trace output: disabled
+2026-02-25 20:15:47 INFO  ui.core.PlaywrightFactory - Tearing down Playwright resources (trace=null)
+2026-02-25 20:16:07 INFO  ui.core.PlaywrightFactory - Playwright teardown complete
+2026-02-25 20:45:33 INFO  config.ConfigReader - Loaded config.properties from classpath (6 keys)
+2026-02-25 20:45:33 INFO  base.BaseUITest - Setting up UI test – browser=chromium, headless=false
+2026-02-25 20:45:33 INFO  ui.core.PlaywrightFactory - Initialising 'chromium' browser (headless=false)
+2026-02-25 20:45:37 WARN  ui.core.PlaywrightFactory - Unknown browser 'chromium' – defaulting to chromium
+2026-02-25 20:45:40 INFO  ui.core.PlaywrightFactory - Browser ready – page created
+2026-02-25 20:45:46 INFO  base.BaseUITest - Navigated to base URL: https://www.themoviedb.org
+2026-02-25 20:45:46 INFO  tests.ui.UpcomingMoviesTest - Initialising page objects for UpcomingMoviesTest
+2026-02-25 20:45:46 INFO  ui.pages.UpcomingMoviesPage - Navigating to Upcoming Movies page
+2026-02-25 20:45:49 INFO  ui.pages.UpcomingMoviesPage - Upcoming movies page loaded – 17 titles visible
+2026-02-25 20:45:49 INFO  ui.pages.MovieDetailsPage - MovieDetailsPage created
+2026-02-25 20:45:49 INFO  tests.ui.UpcomingMoviesTest - Running fetchUpcomingMovies
+2026-02-25 20:45:49 INFO  ui.pages.UpcomingMoviesPage - Fetching 17 upcoming movies
+2026-02-25 20:45:52 INFO  tests.ui.UpcomingMoviesTest - 1213243 - Toxic -> Mar 19, 2026
+2026-02-25 20:45:52 INFO  tests.ui.UpcomingMoviesTest - 1582770 - Dhurandhar: The Revenge -> Mar 19, 2026
+2026-02-25 20:45:52 INFO  tests.ui.UpcomingMoviesTest - 1209511 - Love Insurance Kompany -> Mar 20, 2026
+2026-02-25 20:45:52 INFO  tests.ui.UpcomingMoviesTest - 1576223 - RAGE -> Mar 20, 2026
+2026-02-25 20:45:52 INFO  tests.ui.UpcomingMoviesTest - 1260210 - Aadu 3 -> Mar 19, 2026
+2026-02-25 20:45:52 INFO  tests.ui.UpcomingMoviesTest - 1628123 - BTS THE COMEBACK LIVE | ARIRANG -> Mar 21, 2026
+2026-02-25 20:45:52 INFO  tests.ui.UpcomingMoviesTest - 1029483 - Aasai -> Mar 06, 2026
+2026-02-25 20:45:52 INFO  tests.ui.UpcomingMoviesTest - 1568600 - Kadhal Reset Repeat -> Mar 06, 2026
+2026-02-25 20:45:52 INFO  tests.ui.UpcomingMoviesTest - 1493079 - Korpur -> Mar 19, 2026
+2026-02-25 20:45:52 INFO  tests.ui.UpcomingMoviesTest - 1542352 - Youth -> Mar 19, 2026
+2026-02-25 20:45:52 INFO  tests.ui.UpcomingMoviesTest - 1428294 - Mrithyunjay -> Mar 06, 2026
+2026-02-25 20:45:52 INFO  tests.ui.UpcomingMoviesTest - 1593339 - Yaarra Antha Paiyan Naanthan Antha Paiyan -> Mar 06, 2026
+2026-02-25 20:45:52 INFO  tests.ui.UpcomingMoviesTest - 1606490 - ANDAKAGASAM -> Mar 06, 2026
+2026-02-25 20:45:52 INFO  tests.ui.UpcomingMoviesTest - 1631856 - Oh Butterfly! -> Mar 06, 2026
+2026-02-25 20:45:52 INFO  tests.ui.UpcomingMoviesTest - 1524468 - Vadam -> Mar 06, 2026
+2026-02-25 20:45:52 INFO  tests.ui.UpcomingMoviesTest - 1608274 - Motherhood -> Mar 06, 2026
+2026-02-25 20:45:52 INFO  tests.ui.UpcomingMoviesTest - 1376592 - Nazarbandi -> Mar 06, 2026
+2026-02-25 20:45:52 INFO  tests.ui.UpcomingMoviesTest - Total upcoming movies found: 17
+2026-02-25 20:45:53 INFO  tests.ui.UpcomingMoviesTest - Running goToMovieDetails
+2026-02-25 20:45:53 INFO  ui.pages.UpcomingMoviesPage - Clicking movie [2]: 'Love Insurance Kompany'
+2026-02-25 20:45:53 INFO  ui.pages.UpcomingMoviesPage - Navigated to details page for 'Love Insurance Kompany'
+2026-02-25 20:45:53 INFO  ui.pages.MovieDetailsPage - MovieDetailsPage created
+2026-02-25 20:45:54 INFO  ui.pages.MovieDetailsPage - Movie title on details page: 'Love Insurance Kompany'
+2026-02-25 20:45:54 INFO  tests.ui.UpcomingMoviesTest - Expected title='Love Insurance Kompany', Actual title='Love Insurance Kompany'
+2026-02-25 20:45:54 INFO  ui.pages.MovieDetailsPage - === Movie Details ===
+2026-02-25 20:45:54 INFO  ui.pages.MovieDetailsPage - Title    : Love Insurance Kompany
+2026-02-25 20:45:54 INFO  ui.pages.MovieDetailsPage - Language : Tamil
+2026-02-25 20:45:55 INFO  ui.pages.MovieDetailsPage - Released : 03/20/2026 (IN)
+2026-02-25 20:45:55 INFO  ui.pages.MovieDetailsPage - Genres   : [Romance, Comedy, Science Fiction]
+2026-02-25 20:45:55 INFO  ui.pages.MovieDetailsPage - Overview : In a tech-chained world, a hero seeks love’s unshackled truth. Through their fight, humanity’s heart may beat free once more.
+2026-02-25 20:45:55 INFO  base.BaseUITest - Tearing down – trace output: disabled
+2026-02-25 20:45:55 INFO  ui.core.PlaywrightFactory - Tearing down Playwright resources (trace=null)
+2026-02-25 20:45:55 INFO  ui.core.PlaywrightFactory - Playwright teardown complete
+2026-02-25 20:49:12 INFO  config.ConfigReader - Loaded config.properties from classpath (6 keys)
+2026-02-25 20:49:12 INFO  base.BaseUITest - Setting up UI test – browser=chromium, headless=false
+2026-02-25 20:49:12 INFO  ui.core.PlaywrightFactory - Initialising 'chromium' browser (headless=false)
+2026-02-25 20:49:19 WARN  ui.core.PlaywrightFactory - Unknown browser 'chromium' – defaulting to chromium
+2026-02-25 20:49:20 INFO  ui.core.PlaywrightFactory - Browser ready – page created
+2026-02-25 20:49:24 INFO  base.BaseUITest - Navigated to base URL: https://www.themoviedb.org
+2026-02-25 20:49:24 INFO  tests.ui.UpcomingMoviesTest - Initialising page objects for UpcomingMoviesTest
+2026-02-25 20:49:24 INFO  ui.pages.UpcomingMoviesPage - Navigating to Upcoming Movies page
+2026-02-25 20:49:27 INFO  base.BaseUITest - Setting up UI test – browser=chromium, headless=false
+2026-02-25 20:49:27 INFO  ui.core.PlaywrightFactory - Initialising 'chromium' browser (headless=false)
+2026-02-25 20:49:27 INFO  ui.pages.UpcomingMoviesPage - Upcoming movies page loaded – 17 titles visible
+2026-02-25 20:49:27 INFO  ui.pages.MovieDetailsPage - MovieDetailsPage created
+2026-02-25 20:49:27 INFO  tests.ui.UpcomingMoviesTest - Running fetchUpcomingMovies
+2026-02-25 20:49:27 INFO  ui.pages.UpcomingMoviesPage - Fetching 17 upcoming movies
+2026-02-25 20:49:28 WARN  ui.core.PlaywrightFactory - Unknown browser 'chromium' – defaulting to chromium
+2026-02-25 20:49:30 INFO  ui.core.PlaywrightFactory - Browser ready – page created
+2026-02-25 20:49:34 INFO  base.BaseUITest - Navigated to base URL: https://www.themoviedb.org
+2026-02-25 20:49:34 INFO  tests.ui.MovieDetailsTest - Navigating to a movie detail page for MovieDetailsTest
+2026-02-25 20:49:34 INFO  ui.pages.UpcomingMoviesPage - Navigating to Upcoming Movies page
+2026-02-25 20:49:35 INFO  tests.ui.UpcomingMoviesTest - 1213243 - Toxic -> Mar 19, 2026
+2026-02-25 20:49:35 INFO  tests.ui.UpcomingMoviesTest - 1582770 - Dhurandhar: The Revenge -> Mar 19, 2026
+2026-02-25 20:49:35 INFO  tests.ui.UpcomingMoviesTest - 1209511 - Love Insurance Kompany -> Mar 20, 2026
+2026-02-25 20:49:35 INFO  tests.ui.UpcomingMoviesTest - 1576223 - RAGE -> Mar 20, 2026
+2026-02-25 20:49:35 INFO  tests.ui.UpcomingMoviesTest - 1260210 - Aadu 3 -> Mar 19, 2026
+2026-02-25 20:49:35 INFO  tests.ui.UpcomingMoviesTest - 1628123 - BTS THE COMEBACK LIVE | ARIRANG -> Mar 21, 2026
+2026-02-25 20:49:35 INFO  tests.ui.UpcomingMoviesTest - 1029483 - Aasai -> Mar 06, 2026
+2026-02-25 20:49:35 INFO  tests.ui.UpcomingMoviesTest - 1568600 - Kadhal Reset Repeat -> Mar 06, 2026
+2026-02-25 20:49:35 INFO  tests.ui.UpcomingMoviesTest - 1493079 - Korpur -> Mar 19, 2026
+2026-02-25 20:49:35 INFO  tests.ui.UpcomingMoviesTest - 1542352 - Youth -> Mar 19, 2026
+2026-02-25 20:49:35 INFO  tests.ui.UpcomingMoviesTest - 1428294 - Mrithyunjay -> Mar 06, 2026
+2026-02-25 20:49:35 INFO  tests.ui.UpcomingMoviesTest - 1593339 - Yaarra Antha Paiyan Naanthan Antha Paiyan -> Mar 06, 2026
+2026-02-25 20:49:35 INFO  tests.ui.UpcomingMoviesTest - 1606490 - ANDAKAGASAM -> Mar 06, 2026
+2026-02-25 20:49:35 INFO  tests.ui.UpcomingMoviesTest - 1631856 - Oh Butterfly! -> Mar 06, 2026
+2026-02-25 20:49:35 INFO  tests.ui.UpcomingMoviesTest - 1524468 - Vadam -> Mar 06, 2026
+2026-02-25 20:49:35 INFO  tests.ui.UpcomingMoviesTest - 1608274 - Motherhood -> Mar 06, 2026
+2026-02-25 20:49:35 INFO  tests.ui.UpcomingMoviesTest - 1376592 - Nazarbandi -> Mar 06, 2026
+2026-02-25 20:49:35 INFO  tests.ui.UpcomingMoviesTest - Total upcoming movies found: 17
+2026-02-25 20:49:35 INFO  tests.ui.UpcomingMoviesTest - Running goToMovieDetails
+2026-02-25 20:49:36 INFO  ui.pages.UpcomingMoviesPage - Clicking movie [2]: 'Love Insurance Kompany'
+2026-02-25 20:49:37 INFO  ui.pages.UpcomingMoviesPage - Upcoming movies page loaded – 17 titles visible
+2026-02-25 20:49:37 INFO  ui.pages.UpcomingMoviesPage - Clicking movie [0]: 'Toxic'
+2026-02-25 20:49:38 INFO  ui.pages.UpcomingMoviesPage - Navigated to details page for 'Love Insurance Kompany'
+2026-02-25 20:49:38 INFO  ui.pages.MovieDetailsPage - MovieDetailsPage created
+2026-02-25 20:49:39 INFO  ui.pages.UpcomingMoviesPage - Navigated to details page for 'Toxic'
+2026-02-25 20:49:39 INFO  ui.pages.MovieDetailsPage - MovieDetailsPage created
+2026-02-25 20:49:39 INFO  tests.ui.MovieDetailsTest - Landed on detail page for: 'Toxic'
+2026-02-25 20:49:39 INFO  ui.pages.MovieDetailsPage - Movie title on details page: 'Love Insurance Kompany'
+2026-02-25 20:49:39 INFO  tests.ui.UpcomingMoviesTest - Expected title='Love Insurance Kompany', Actual title='Love Insurance Kompany'
+2026-02-25 20:49:39 INFO  ui.pages.MovieDetailsPage - === Movie Details ===
+2026-02-25 20:49:39 INFO  ui.pages.MovieDetailsPage - Title    : Love Insurance Kompany
+2026-02-25 20:49:39 INFO  ui.pages.MovieDetailsPage - Language : Tamil
+2026-02-25 20:49:40 INFO  ui.pages.MovieDetailsPage - Movie title on details page: 'Toxic'
+2026-02-25 20:49:40 INFO  tests.ui.MovieDetailsTest - Title check – expected='Toxic', actual='Toxic'
+2026-02-25 20:49:40 INFO  tests.ui.MovieDetailsTest - Original language: 'Kannada'
+2026-02-25 20:49:40 INFO  base.BaseUITest - Tearing down – trace output: disabled
+2026-02-25 20:49:40 INFO  ui.core.PlaywrightFactory - Tearing down Playwright resources (trace=null)
+2026-02-25 20:49:40 INFO  ui.pages.MovieDetailsPage - Released : 03/20/2026 (IN)
+2026-02-25 20:49:40 INFO  ui.pages.MovieDetailsPage - Genres   : [Romance, Comedy, Science Fiction]
+2026-02-25 20:49:40 INFO  ui.pages.MovieDetailsPage - Overview : In a tech-chained world, a hero seeks love’s unshackled truth. Through their fight, humanity’s heart may beat free once more.
+2026-02-25 20:49:40 INFO  base.BaseUITest - Tearing down – trace output: disabled
+2026-02-25 20:49:40 INFO  ui.core.PlaywrightFactory - Tearing down Playwright resources (trace=null)
+2026-02-25 20:49:41 INFO  ui.core.PlaywrightFactory - Playwright teardown complete
+2026-02-25 20:49:41 INFO  ui.core.PlaywrightFactory - Playwright teardown complete
+2026-02-25 21:10:31 INFO  config.ConfigReader - Loaded config.properties from classpath (6 keys)
+2026-02-25 21:10:39 INFO  base.BaseUITest - Setting up UI test – browser=chromium, headless=false
+2026-02-25 21:10:39 INFO  ui.core.PlaywrightFactory - Initialising 'chromium' browser (headless=false)
+2026-02-25 21:10:43 WARN  ui.core.PlaywrightFactory - Unknown browser 'chromium' – defaulting to chromium
+2026-02-25 21:10:45 INFO  ui.core.PlaywrightFactory - Browser ready – page created
+2026-02-25 21:10:49 INFO  base.BaseUITest - Navigated to base URL: https://www.themoviedb.org
+2026-02-25 21:10:49 INFO  tests.ui.MovieDetailsTest - Navigating to a movie detail page for MovieDetailsTest
+2026-02-25 21:10:49 INFO  ui.pages.UpcomingMoviesPage - Navigating to Upcoming Movies page
+2026-02-25 21:10:52 INFO  ui.pages.UpcomingMoviesPage - Upcoming movies page loaded – 17 titles visible
+2026-02-25 21:10:52 INFO  ui.pages.UpcomingMoviesPage - Clicking movie [0]: 'Toxic'
+2026-02-25 21:10:53 INFO  ui.pages.UpcomingMoviesPage - Navigated to details page for 'Toxic'
+2026-02-25 21:10:53 INFO  ui.pages.MovieDetailsPage - MovieDetailsPage created
+2026-02-25 21:10:53 INFO  tests.ui.MovieDetailsTest - Landed on detail page for: 'Toxic'
+2026-02-25 21:10:54 INFO  ui.pages.MovieDetailsPage - Movie title on details page: 'Toxic'
+2026-02-25 21:10:54 INFO  tests.ui.MovieDetailsTest - Title check – expected='Toxic', actual='Toxic'
+2026-02-25 21:10:54 INFO  tests.ui.MovieDetailsTest - Original language: 'Kannada'
+2026-02-25 21:10:54 INFO  base.BaseUITest - Tearing down – trace output: disabled
+2026-02-25 21:10:54 INFO  ui.core.PlaywrightFactory - Tearing down Playwright resources (trace=null)
+2026-02-25 21:10:55 INFO  ui.core.PlaywrightFactory - Playwright teardown complete
+2026-02-25 21:10:55 INFO  base.BaseUITest - Setting up UI test – browser=chromium, headless=false
+2026-02-25 21:10:55 INFO  ui.core.PlaywrightFactory - Initialising 'chromium' browser (headless=false)
+2026-02-25 21:10:55 WARN  ui.core.PlaywrightFactory - Unknown browser 'chromium' – defaulting to chromium
+2026-02-25 21:10:56 INFO  ui.core.PlaywrightFactory - Browser ready – page created
+2026-02-25 21:11:00 INFO  base.BaseUITest - Navigated to base URL: https://www.themoviedb.org
+2026-02-25 21:11:00 INFO  tests.ui.UpcomingMoviesTest - Initialising page objects for UpcomingMoviesTest
+2026-02-25 21:11:00 INFO  ui.pages.UpcomingMoviesPage - Navigating to Upcoming Movies page
+2026-02-25 21:11:03 INFO  ui.pages.UpcomingMoviesPage - Upcoming movies page loaded – 17 titles visible
+2026-02-25 21:11:03 INFO  ui.pages.MovieDetailsPage - MovieDetailsPage created
+2026-02-25 21:11:03 INFO  tests.ui.UpcomingMoviesTest - Running fetchUpcomingMovies
+2026-02-25 21:11:04 INFO  ui.pages.UpcomingMoviesPage - Fetching 17 upcoming movies
+2026-02-25 21:11:07 INFO  tests.ui.UpcomingMoviesTest - 1213243 - Toxic -> Mar 19, 2026
+2026-02-25 21:11:07 INFO  tests.ui.UpcomingMoviesTest - 1582770 - Dhurandhar: The Revenge -> Mar 19, 2026
+2026-02-25 21:11:07 INFO  tests.ui.UpcomingMoviesTest - 1209511 - Love Insurance Kompany -> Mar 20, 2026
+2026-02-25 21:11:07 INFO  tests.ui.UpcomingMoviesTest - 1576223 - RAGE -> Mar 20, 2026
+2026-02-25 21:11:07 INFO  tests.ui.UpcomingMoviesTest - 1260210 - Aadu 3 -> Mar 19, 2026
+2026-02-25 21:11:07 INFO  tests.ui.UpcomingMoviesTest - 1628123 - BTS THE COMEBACK LIVE | ARIRANG -> Mar 21, 2026
+2026-02-25 21:11:07 INFO  tests.ui.UpcomingMoviesTest - 1029483 - Aasai -> Mar 06, 2026
+2026-02-25 21:11:07 INFO  tests.ui.UpcomingMoviesTest - 1568600 - Kadhal Reset Repeat -> Mar 06, 2026
+2026-02-25 21:11:07 INFO  tests.ui.UpcomingMoviesTest - 1493079 - Korpur -> Mar 19, 2026
+2026-02-25 21:11:07 INFO  tests.ui.UpcomingMoviesTest - 1542352 - Youth -> Mar 19, 2026
+2026-02-25 21:11:07 INFO  tests.ui.UpcomingMoviesTest - 1428294 - Mrithyunjay -> Mar 06, 2026
+2026-02-25 21:11:07 INFO  tests.ui.UpcomingMoviesTest - 1593339 - Yaarra Antha Paiyan Naanthan Antha Paiyan -> Mar 06, 2026
+2026-02-25 21:11:07 INFO  tests.ui.UpcomingMoviesTest - 1606490 - ANDAKAGASAM -> Mar 06, 2026
+2026-02-25 21:11:07 INFO  tests.ui.UpcomingMoviesTest - 1631856 - Oh Butterfly! -> Mar 06, 2026
+2026-02-25 21:11:07 INFO  tests.ui.UpcomingMoviesTest - 1524468 - Vadam -> Mar 06, 2026
+2026-02-25 21:11:07 INFO  tests.ui.UpcomingMoviesTest - 1608274 - Motherhood -> Mar 06, 2026
+2026-02-25 21:11:07 INFO  tests.ui.UpcomingMoviesTest - 1376592 - Nazarbandi -> Mar 06, 2026
+2026-02-25 21:11:07 INFO  tests.ui.UpcomingMoviesTest - Total upcoming movies found: 17
+2026-02-25 21:11:07 INFO  tests.ui.UpcomingMoviesTest - Running goToMovieDetails
+2026-02-25 21:11:07 INFO  ui.pages.UpcomingMoviesPage - Clicking movie [2]: 'Love Insurance Kompany'
+2026-02-25 21:11:08 INFO  ui.pages.UpcomingMoviesPage - Navigated to details page for 'Love Insurance Kompany'
+2026-02-25 21:11:08 INFO  ui.pages.MovieDetailsPage - MovieDetailsPage created
+2026-02-25 21:11:08 INFO  ui.pages.MovieDetailsPage - Movie title on details page: 'Love Insurance Kompany'
+2026-02-25 21:11:08 INFO  tests.ui.UpcomingMoviesTest - Expected title='Love Insurance Kompany', Actual title='Love Insurance Kompany'
+2026-02-25 21:11:08 INFO  ui.pages.MovieDetailsPage - === Movie Details ===
+2026-02-25 21:11:08 INFO  ui.pages.MovieDetailsPage - Title    : Love Insurance Kompany
+2026-02-25 21:11:09 INFO  ui.pages.MovieDetailsPage - Language : Tamil
+2026-02-25 21:11:09 INFO  ui.pages.MovieDetailsPage - Released : 03/20/2026 (IN)
+2026-02-25 21:11:09 INFO  ui.pages.MovieDetailsPage - Genres   : [Romance, Comedy, Science Fiction]
+2026-02-25 21:11:09 INFO  ui.pages.MovieDetailsPage - Overview : In a tech-chained world, a hero seeks love’s unshackled truth. Through their fight, humanity’s heart may beat free once more.
+2026-02-25 21:11:09 INFO  base.BaseUITest - Tearing down – trace output: disabled
+2026-02-25 21:11:09 INFO  ui.core.PlaywrightFactory - Tearing down Playwright resources (trace=null)
+2026-02-25 21:11:09 INFO  ui.core.PlaywrightFactory - Playwright teardown complete

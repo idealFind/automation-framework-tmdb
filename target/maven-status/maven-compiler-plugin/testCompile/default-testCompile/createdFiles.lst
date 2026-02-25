@@ -1,0 +1,5 @@
+listeners\TestListener.class
+tests\ui\MovieDetailsTest.class
+tests\ui\UpcomingMoviesTest.class
+base\BaseUITest.class
+tests\api\UserAPITest.class

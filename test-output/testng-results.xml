@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-25T20:49:12 IST" name="TMDB Suite" finished-at="2026-02-25T20:49:41 IST" duration-ms="29452">
+    <groups>
+    </groups>
+    <test started-at="2026-02-25T20:49:12 IST" name="API Test_chrome" finished-at="2026-02-25T20:49:27 IST" duration-ms="14658">
+      <class name="tests.api.UserAPITest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.api.UserAPITest@5677323c]" started-at="2026-02-25T20:49:12 IST" name="setup" finished-at="2026-02-25T20:49:13 IST" duration-ms="845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUserTest()[pri:1, instance:tests.api.UserAPITest@5677323c]" started-at="2026-02-25T20:49:13 IST" name="createUserTest" finished-at="2026-02-25T20:49:18 IST" duration-ms="5102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserTest -->
+        <test-method signature="getUserTest()[pri:2, instance:tests.api.UserAPITest@5677323c]" started-at="2026-02-25T20:49:18 IST" name="getUserTest" finished-at="2026-02-25T20:49:23 IST" depends-on-methods="tests.api.UserAPITest.createUserTest" duration-ms="4779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserTest -->
+        <test-method signature="updateUserTest()[pri:3, instance:tests.api.UserAPITest@5677323c]" started-at="2026-02-25T20:49:23 IST" name="updateUserTest" finished-at="2026-02-25T20:49:25 IST" depends-on-methods="tests.api.UserAPITest.createUserTest" duration-ms="1899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+        <test-method signature="deleteUserTest()[pri:4, instance:tests.api.UserAPITest@5677323c]" started-at="2026-02-25T20:49:25 IST" name="deleteUserTest" finished-at="2026-02-25T20:49:27 IST" depends-on-methods="tests.api.UserAPITest.updateUserTest" duration-ms="1874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+      </class> <!-- tests.api.UserAPITest -->
+    </test> <!-- API Test_chrome -->
+    <test started-at="2026-02-25T20:49:27 IST" name="Movie Details Page Test_chrome" finished-at="2026-02-25T20:49:41 IST" duration-ms="14633">
+      <class name="tests.ui.MovieDetailsTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.ui.MovieDetailsTest@15a902e7]" started-at="2026-02-25T20:49:27 IST" name="setup" finished-at="2026-02-25T20:49:34 IST" duration-ms="7124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests.ui.MovieDetailsTest@15a902e7]" started-at="2026-02-25T20:49:34 IST" name="initPages" finished-at="2026-02-25T20:49:39 IST" depends-on-methods="base.BaseUITest.setup" duration-ms="4806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="verifyGenres()[pri:0, instance:tests.ui.MovieDetailsTest@15a902e7]" started-at="2026-02-25T20:49:39 IST" name="verifyGenres" description="Verify at least one genre is listed" finished-at="2026-02-25T20:49:39 IST" duration-ms="806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGenres -->
+        <test-method signature="verifyMovieTitle()[pri:0, instance:tests.ui.MovieDetailsTest@15a902e7]" started-at="2026-02-25T20:49:40 IST" name="verifyMovieTitle" description="Verify movie title on detail page matches the listing" finished-at="2026-02-25T20:49:40 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMovieTitle -->
+        <test-method signature="verifyOriginalLanguage()[pri:0, instance:tests.ui.MovieDetailsTest@15a902e7]" started-at="2026-02-25T20:49:40 IST" name="verifyOriginalLanguage" description="Verify original language is not blank" finished-at="2026-02-25T20:49:40 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOriginalLanguage -->
+        <test-method signature="verifyOverview()[pri:0, instance:tests.ui.MovieDetailsTest@15a902e7]" started-at="2026-02-25T20:49:40 IST" name="verifyOverview" description="Verify overview text is present" finished-at="2026-02-25T20:49:40 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOverview -->
+        <test-method signature="verifyReleaseDate()[pri:0, instance:tests.ui.MovieDetailsTest@15a902e7]" started-at="2026-02-25T20:49:40 IST" name="verifyReleaseDate" description="Verify release date is present" finished-at="2026-02-25T20:49:40 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReleaseDate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.MovieDetailsTest@15a902e7]" started-at="2026-02-25T20:49:40 IST" name="tearDown" finished-at="2026-02-25T20:49:41 IST" duration-ms="1576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ui.MovieDetailsTest -->
+    </test> <!-- Movie Details Page Test_chrome -->
+    <test started-at="2026-02-25T20:49:12 IST" name="Upcoming Movie Page Test_chrome" finished-at="2026-02-25T20:49:41 IST" duration-ms="29452">
+      <class name="tests.ui.UpcomingMoviesTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.ui.UpcomingMoviesTest@403132fc]" started-at="2026-02-25T20:49:12 IST" name="setup" finished-at="2026-02-25T20:49:24 IST" duration-ms="12270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:tests.ui.UpcomingMoviesTest@403132fc]" started-at="2026-02-25T20:49:24 IST" name="initPages" finished-at="2026-02-25T20:49:27 IST" depends-on-methods="base.BaseUITest.setup" duration-ms="2721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="fetchUpcomingMovies()[pri:0, instance:tests.ui.UpcomingMoviesTest@403132fc]" started-at="2026-02-25T20:49:27 IST" name="fetchUpcomingMovies" description="Verify the upcoming movies list is populated" finished-at="2026-02-25T20:49:35 IST" duration-ms="8325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchUpcomingMovies -->
+        <test-method signature="goToMovieDetails()[pri:1, instance:tests.ui.UpcomingMoviesTest@403132fc]" started-at="2026-02-25T20:49:35 IST" name="goToMovieDetails" description="Verify clicking a movie navigates to the correct detail page" finished-at="2026-02-25T20:49:40 IST" depends-on-methods="tests.ui.UpcomingMoviesTest.fetchUpcomingMovies" duration-ms="4750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToMovieDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ui.UpcomingMoviesTest@403132fc]" started-at="2026-02-25T20:49:40 IST" name="tearDown" finished-at="2026-02-25T20:49:41 IST" duration-ms="1333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ui.UpcomingMoviesTest -->
+    </test> <!-- Upcoming Movie Page Test_chrome -->
+  </suite> <!-- TMDB Suite -->
+</testng-results>

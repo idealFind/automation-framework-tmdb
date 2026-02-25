@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"> -->
+<suite name="TMDB Suite" thread-count="2" parallel="tests"
+	verbose="4">
+
+	<!-- <listeners> <listener class-name="com.qa.opencart.listeners.ExtentReportListener" 
+		/> </listeners> -->
+
+	<test name="API Test_chrome">
+		<parameter name="browser" value="chromium" />
+		<classes>
+			<class name="tests.api.UserAPITest" />
+		</classes>
+	</test>
+
+	<test name="Upcoming Movie Page Test_chrome">
+		<parameter name="browser" value="chromium" />
+		<classes>
+			<class name="tests.ui.UpcomingMoviesTest" />
+		</classes>
+	</test>
+
+	<test name="Movie Details Page Test_chrome">
+		<parameter name="browser" value="chromium" />
+		<classes>
+			<class name="tests.ui.MovieDetailsTest" />
+		</classes>
+	</test>
+
+
+	<!-- <test name="Movie Details Page Test_chrome"> <parameter name="browser" 
+		value="chromium" /> <classes> <class name="tests.ui.MovieDetailsTest" /> 
+		</classes> </test> -->
+
+	<!--<parameter name="browser" value="chromium" /> <parameter name="browser" 
+		value="firefox" /> -->
+
+</suite> <!-- Suite -->

@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TMDB_Suite" class="navigator-link">
+              <span class="suite-name border-passed">TMDB Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TMDB_Suite" class="navigator-link ">
+                    <span>C:\Users\sunny\Documents\eclipse-workspace\automation-framework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TMDB_Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TMDB_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TMDB_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TMDB_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TMDB_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TMDB_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TMDB_Suite" class="hide-methods passed suite-TMDB_Suite"> (hide)</a> <!-- hide-methods passed suite-TMDB_Suite -->
+                      <a href="#" panel-name="suite-TMDB_Suite" class="show-methods passed suite-TMDB_Suite"> (show)</a> <!-- show-methods passed suite-TMDB_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-TMDB_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TMDB_Suite" title="tests.api.UserAPITest" class="method navigator-link" hash-for-method="createUserTest">createUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TMDB_Suite" title="tests.api.UserAPITest" class="method navigator-link" hash-for-method="deleteUserTest">deleteUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TMDB_Suite" title="tests.ui.UpcomingMoviesTest" class="method navigator-link" hash-for-method="fetchUpcomingMovies">fetchUpcomingMovies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TMDB_Suite" title="tests.api.UserAPITest" class="method navigator-link" hash-for-method="getUserTest">getUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TMDB_Suite" title="tests.ui.UpcomingMoviesTest" class="method navigator-link" hash-for-method="goToMovieDetails">goToMovieDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TMDB_Suite" title="tests.api.UserAPITest" class="method navigator-link" hash-for-method="updateUserTest">updateUserTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TMDB_Suite" title="tests.ui.MovieDetailsTest" class="method navigator-link" hash-for-method="verifyGenres">verifyGenres</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TMDB_Suite" title="tests.ui.MovieDetailsTest" class="method navigator-link" hash-for-method="verifyMovieTitle">verifyMovieTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TMDB_Suite" title="tests.ui.MovieDetailsTest" class="method navigator-link" hash-for-method="verifyOriginalLanguage">verifyOriginalLanguage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TMDB_Suite" title="tests.ui.MovieDetailsTest" class="method navigator-link" hash-for-method="verifyOverview">verifyOverview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TMDB_Suite" title="tests.ui.MovieDetailsTest" class="method navigator-link" hash-for-method="verifyReleaseDate">verifyReleaseDate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TMDB_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TMDB_Suite" class="panel TMDB_Suite">
+          <div class="suite-TMDB_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ui.MovieDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGenres">
+                  </a> <!-- verifyGenres -->
+                  <span class="method-name">verifyGenres</span>
+                  <em>
+(Verify at least one genre is listed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMovieTitle">
+                  </a> <!-- verifyMovieTitle -->
+                  <span class="method-name">verifyMovieTitle</span>
+                  <em>
+(Verify movie title on detail page matches the listing)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOriginalLanguage">
+                  </a> <!-- verifyOriginalLanguage -->
+                  <span class="method-name">verifyOriginalLanguage</span>
+                  <em>
+(Verify original language is not blank)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOverview">
+                  </a> <!-- verifyOverview -->
+                  <span class="method-name">verifyOverview</span>
+                  <em>
+(Verify overview text is present)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyReleaseDate">
+                  </a> <!-- verifyReleaseDate -->
+                  <span class="method-name">verifyReleaseDate</span>
+                  <em>
+(Verify release date is present)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TMDB_Suite-class-passed -->
+          <div class="suite-TMDB_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ui.UpcomingMoviesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fetchUpcomingMovies">
+                  </a> <!-- fetchUpcomingMovies -->
+                  <span class="method-name">fetchUpcomingMovies</span>
+                  <em>
+(Verify the upcoming movies list is populated)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToMovieDetails">
+                  </a> <!-- goToMovieDetails -->
+                  <span class="method-name">goToMovieDetails</span>
+                  <em>
+(Verify clicking a movie navigates to the correct detail page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TMDB_Suite-class-passed -->
+          <div class="suite-TMDB_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.api.UserAPITest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUserTest">
+                  </a> <!-- createUserTest -->
+                  <span class="method-name">createUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteUserTest">
+                  </a> <!-- deleteUserTest -->
+                  <span class="method-name">deleteUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserTest">
+                  </a> <!-- getUserTest -->
+                  <span class="method-name">getUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUserTest">
+                  </a> <!-- updateUserTest -->
+                  <span class="method-name">updateUserTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TMDB_Suite-class-passed -->
+        </div> <!-- panel TMDB_Suite -->
+        <div panel-name="test-xml-TMDB_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\sunny\Documents\eclipse-workspace\automation-framework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;TMDB Suite&quot; verbose=&quot;4&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;API Test_chrome&quot; verbose=&quot;4&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chromium&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.api.UserAPITest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- API Test_chrome --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Upcoming Movie Page Test_chrome&quot; verbose=&quot;4&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chromium&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ui.UpcomingMoviesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Upcoming Movie Page Test_chrome --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Movie Details Page Test_chrome&quot; verbose=&quot;4&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chromium&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ui.MovieDetailsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Movie Details Page Test_chrome --&gt;
+&lt;/suite&gt; &lt;!-- TMDB Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TMDB_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TMDB Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">API Test_chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Upcoming Movie Page Test_chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Movie Details Page Test_chrome (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TMDB_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TMDB Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TMDB_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TMDB Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TMDB_Suite');
+function tableData_TMDB_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'fetchUpcomingMovies')
+data.setCell(0, 2, 'tests.ui.UpcomingMoviesTest')
+data.setCell(0, 3, 8325);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createUserTest')
+data.setCell(1, 2, 'tests.api.UserAPITest')
+data.setCell(1, 3, 5102);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getUserTest')
+data.setCell(2, 2, 'tests.api.UserAPITest')
+data.setCell(2, 3, 4779);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'goToMovieDetails')
+data.setCell(3, 2, 'tests.ui.UpcomingMoviesTest')
+data.setCell(3, 3, 4750);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'updateUserTest')
+data.setCell(4, 2, 'tests.api.UserAPITest')
+data.setCell(4, 3, 1899);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'deleteUserTest')
+data.setCell(5, 2, 'tests.api.UserAPITest')
+data.setCell(5, 3, 1874);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyGenres')
+data.setCell(6, 2, 'tests.ui.MovieDetailsTest')
+data.setCell(6, 3, 806);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyOriginalLanguage')
+data.setCell(7, 2, 'tests.ui.MovieDetailsTest')
+data.setCell(7, 3, 111);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyMovieTitle')
+data.setCell(8, 2, 'tests.ui.MovieDetailsTest')
+data.setCell(8, 3, 73);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyOverview')
+data.setCell(9, 2, 'tests.ui.MovieDetailsTest')
+data.setCell(9, 3, 62);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyReleaseDate')
+data.setCell(10, 2, 'tests.ui.MovieDetailsTest')
+data.setCell(10, 3, 43);
+window.suiteTableData['TMDB_Suite']= { tableData: data, tableDiv: 'times-div-TMDB_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <div id="times-div-TMDB_Suite">
+              </div> <!-- times-div-TMDB_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TMDB_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TMDB Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TMDB_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TMDB_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.UpcomingMoviesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chromium)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.api.UserAPITest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createUserTest</span>
+                <span class="method-start">854 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getUserTest</span>
+                <span class="method-start">6053 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateUserTest</span>
+                <span class="method-start">10847 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.UpcomingMoviesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initPages</span>
+                <span class="method-start">12270 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.api.UserAPITest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deleteUserTest</span>
+                <span class="method-start">12751 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.MovieDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chromium)</span>
+                <span class="method-start">14692 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.UpcomingMoviesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">fetchUpcomingMovies</span>
+                <span class="method-start">14993 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.MovieDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initPages</span>
+                <span class="method-start">21816 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.UpcomingMoviesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">goToMovieDetails</span>
+                <span class="method-start">23337 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.MovieDetailsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyGenres</span>
+                <span class="method-start">26622 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMovieTitle</span>
+                <span class="method-start">27432 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyOriginalLanguage</span>
+                <span class="method-start">27510 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyOverview</span>
+                <span class="method-start">27627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyReleaseDate</span>
+                <span class="method-start">27698 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27744 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ui.UpcomingMoviesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28092 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

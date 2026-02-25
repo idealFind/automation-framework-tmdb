@@ -1,0 +1,12 @@
+C:\Users\sunny\Documents\eclipse-workspace\automation-framework\src\main\java\api\base\BaseAPITest.java
+C:\Users\sunny\Documents\eclipse-workspace\automation-framework\src\main\java\api\clients\UserAPIClient.java
+C:\Users\sunny\Documents\eclipse-workspace\automation-framework\src\main\java\api\models\User.java
+C:\Users\sunny\Documents\eclipse-workspace\automation-framework\src\main\java\config\ConfigReader.java
+C:\Users\sunny\Documents\eclipse-workspace\automation-framework\src\main\java\ui\core\DriverManager.java
+C:\Users\sunny\Documents\eclipse-workspace\automation-framework\src\main\java\ui\core\PlaywrightFactory.java
+C:\Users\sunny\Documents\eclipse-workspace\automation-framework\src\main\java\ui\pages\MovieDetailsPage.java
+C:\Users\sunny\Documents\eclipse-workspace\automation-framework\src\main\java\ui\pages\UpcomingMoviesPage.java
+C:\Users\sunny\Documents\eclipse-workspace\automation-framework\src\main\java\utils\APIValidator.java
+C:\Users\sunny\Documents\eclipse-workspace\automation-framework\src\main\java\utils\RetryAnalyzer.java
+C:\Users\sunny\Documents\eclipse-workspace\automation-framework\src\main\java\utils\ScreenshotUtil.java
+C:\Users\sunny\Documents\eclipse-workspace\automation-framework\src\main\java\utils\WaitUtil.java

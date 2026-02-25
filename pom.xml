@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<!-- <project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+	https://maven.apache.org/xsd/maven-4.0.0.xsd">
+-->
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com</groupId>
+	<artifactId>automation-framework</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>automation-framework</name>
+
+	<properties>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+
+		<!-- Playwright -->
+		<dependency>
+			<groupId>com.microsoft.playwright</groupId>
+			<artifactId>playwright</artifactId>
+			<version>1.42.0</version>
+		</dependency>
+
+		<!-- RestAssured -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>5.4.0</version>
+		</dependency>
+
+		<!-- TestNG 
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.9.0</version>
+			<scope>test</scope>
+		</dependency>-->
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.9.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+		<dependency>
+			<groupId>com.github.javafaker</groupId>
+			<artifactId>javafaker</artifactId>
+			<version>1.0.2</version>
+		</dependency>
+
+		<!-- Jackson for POJO -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.17.0</version>
+		</dependency>
+
+		<!-- Log4j -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.22.0</version>
+		</dependency>
+
+		<!-- Allure -->
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-testng</artifactId>
+			<version>2.24.0</version>
+		</dependency>
+
+	</dependencies>
+
+</project>
